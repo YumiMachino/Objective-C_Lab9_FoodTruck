@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "FoodTruck.h"
 #import "Cook.h"
+#import "Apprentice.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -18,9 +19,10 @@ int main(int argc, const char * argv[]) {
         
         // create instances of your delegate class
         Cook *cook = [[Cook alloc] init];
+        Apprentice *retail = [[Apprentice alloc] init];
         // set truckA and truckB's delegate to your new instance.
         truckA.delegate = cook;
-        truckB.delegate = cook;
+        truckB.delegate = retail;
         
         
         [truckA serve:10];

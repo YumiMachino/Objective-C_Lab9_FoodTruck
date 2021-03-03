@@ -10,6 +10,7 @@
 		8BF87F6E1CDB2B21001943DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F6D1CDB2B21001943DE /* main.m */; };
 		8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F751CDB2B34001943DE /* FoodTruck.m */; };
 		AECDFD5525EF0C1F00398DB9 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDFD5425EF0C1F00398DB9 /* Cook.m */; };
+		AECDFD5D25EF15F300398DB9 /* Apprentice.m in Sources */ = {isa = PBXBuildFile; fileRef = AECDFD5C25EF15F300398DB9 /* Apprentice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		8BF87F751CDB2B34001943DE /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
 		AECDFD5325EF0C1F00398DB9 /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
 		AECDFD5425EF0C1F00398DB9 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		AECDFD5B25EF15F300398DB9 /* Apprentice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Apprentice.h; sourceTree = "<group>"; };
+		AECDFD5C25EF15F300398DB9 /* Apprentice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Apprentice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 		8BF87F611CDB2B21001943DE = {
 			isa = PBXGroup;
 			children = (
+				AECDFD5F25EF15FB00398DB9 /* Retail */,
 				AECDFD5725EF0C2500398DB9 /* Cook */,
 				8BF87F6C1CDB2B21001943DE /* Foodtruck */,
 				8BF87F6B1CDB2B21001943DE /* Products */,
@@ -78,6 +82,15 @@
 				AECDFD5425EF0C1F00398DB9 /* Cook.m */,
 			);
 			path = Cook;
+			sourceTree = "<group>";
+		};
+		AECDFD5F25EF15FB00398DB9 /* Retail */ = {
+			isa = PBXGroup;
+			children = (
+				AECDFD5B25EF15F300398DB9 /* Apprentice.h */,
+				AECDFD5C25EF15F300398DB9 /* Apprentice.m */,
+			);
+			path = Retail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECDFD5D25EF15F300398DB9 /* Apprentice.m in Sources */,
 				8BF87F6E1CDB2B21001943DE /* main.m in Sources */,
 				8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */,
 				AECDFD5525EF0C1F00398DB9 /* Cook.m in Sources */,
