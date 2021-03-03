@@ -9,6 +9,7 @@
 
 @class FoodTruck;
 
+/// define protocol
 @protocol FoodTruckDelegate <NSObject>
 
 -(double)foodTruck:(FoodTruck *)truck priceForFood:(NSString *)food;
@@ -18,6 +19,7 @@
 
 @interface FoodTruck : NSObject
 
+/// Any object that conforms to the FoodTruck delegate
 @property (nonatomic, weak) id<FoodTruckDelegate> delegate;
 
 -(instancetype)initWithName:(NSString *)pun andFoodType:(NSString *)foodType;
